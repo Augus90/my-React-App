@@ -1,0 +1,14 @@
+.loggedInterface{
+    color: black;
+    width: auto;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.loggedInterface-text{
+    font-size: 18px;
+}

@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types"
 
 export default function Header({titulo, descripcion}){
 
@@ -9,4 +9,9 @@ export default function Header({titulo, descripcion}){
         </div>
     );
 
+}
+
+Header.propTypes = {
+    titulo: PropTypes.string,
+    descripcion: PropTypes.string
 }

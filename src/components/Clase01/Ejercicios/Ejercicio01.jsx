@@ -12,7 +12,7 @@ export default function Ejercicio1(){
     return(
         <div>
             <Header titulo={titulo} descripcion={descripcion}></Header>
-            <Imagen urlImage={urlImage}></Imagen>
+            <Imagen urlImagen={urlImage}></Imagen>
         </div>
     );
 }
