@@ -13,9 +13,23 @@ import './App.css'
 // Clase 02
 // -----------
 // import Container from './components/Clase02/Composition'
-import Contador from './components/Clase02/Ejercicios/Ejercicio01'
-import FuncionalComponenetCounter from './components/Clase02/Ejercicios/Ejercicio02'
-import Loader from './components/Clase02/Ejercicios/Ejercicio03'
+// import Contador from './components/Clase02/Ejercicios/Ejercicio01'
+// import FuncionalComponenetCounter from './components/Clase02/Ejercicios/Ejercicio02'
+// import Loader from './components/Clase02/Ejercicios/Ejercicio03'
+// -----------
+// Clase 03
+// -----------
+// import Timer from './components/Clase03/life-cycles/ComponentWillMount'
+// import ComponentDidUpdate from './components/Clase03/life-cycles/ComponenetDidUpdate'
+// import TodoList from './components/Clase03/hooks/HookUseState'
+// import ParentComponenete from './components/Clase03/events/PassEventsAsProps'
+// import InputComponent from './components/Clase03/events/TypeEvents'
+// import FormComponent from './components/Clase03/events/TypeEvents'
+// -----------
+// Clase 04
+// -----------
+import UseEffectExample from './components/Clase04/useEffectExample'
+import UseEffectApiSearch from './components/Clase04/userEffectApiSearch'
 
 
 function App() {
@@ -35,9 +49,21 @@ function App() {
       {/* <Container></Container> */}
       {/* <Contador></Contador> */}
       {/* <FuncionalComponenetCounter></FuncionalComponenetCounter> */}
-      <Loader/>
+      {/* <Loader/> */}
 
-      
+      {/* Clase 3 */}
+
+      {/* <Timer/> */}
+      {/* <ComponentDidUpdate/> */}
+      {/* <TodoList/> */}
+      {/* <ParentComponenete/> */}
+      {/* <InputComponent/> */}
+      {/* <FormComponent/> */}
+
+      {/* Clase 4 */}
+
+      {/* <UseEffectExample/> */}
+      <UseEffectApiSearch/>
     </>
   )
 }

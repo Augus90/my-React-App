@@ -1,0 +1,20 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.buscar{
+    padding: 16px;
+}
+
+.lista a{
+    background-color: azure;
+    color: black;
+}
+
+.lista a:hover{
+    color: blue;
+    background-color: aqua;
+    margin: -2px;
+}
+
